@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+COPYRIGHT NOTICE: Ravin Chavez and Scentaurion Partners own the copyright and intellectual property of this work product. Any derivative works, publication, modification are not allowed, however you're welcome to download/view our code. Copyright and intellectual property codes are contextualized within the jurisdiction of the Courts of the Philippines.
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
