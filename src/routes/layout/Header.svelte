@@ -19,7 +19,7 @@
 <div class="header">
     <div class="flat left">
 	    <img src="path/to/your/logo.png" alt="Scentaurion Logo" />
-	    <h1>{title}</h1>
+	    <a href="/"><h1>{title}</h1></a>
 	    <!-- <h2>{subtitle}</h2> -->
     </div>
     
@@ -34,8 +34,8 @@
 
     <div class="flat right">
         <ul>
-        	<li>Log In</li>
-            <li>Sign Up</li>
+        	<a href=/login><li>Log In</li></a>
+            <a href=/signup><li>Sign Up</li></a>
         </ul>
     </div>
 
