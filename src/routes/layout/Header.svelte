@@ -22,20 +22,13 @@
 	    <a href="/"><h1>{title}</h1></a>
 	    <!-- <h2>{subtitle}</h2> -->
     </div>
-    
-    <div class="flat">
-	    <ul>
-	    	<li>Catalogue</li>
-            <li>Customize</li>
-            <li>Order</li>
-            <li>FAQ</li>
-	    </ul>
-    </div>
 
     <div class="flat right">
         <ul>
+        	<a href=/catalog><li>Catalog</li></a>
+        	<a href=/login><li>Customize</li></a>
+        	<a href=/login><li>Collections</li></a>
         	<a href=/login><li>Log In</li></a>
-            <a href=/signup><li>Sign Up</li></a>
         </ul>
     </div>
 

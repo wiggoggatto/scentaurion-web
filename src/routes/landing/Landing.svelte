@@ -7,6 +7,8 @@
     <header class="header">
         <h1>Scentaurion</h1>
         <p>Tailor-made Fragrances</p>
+        <br>
+        <p>Insert Advertisement Here</p>
     </header>
 
     <div class="text">
@@ -44,7 +46,7 @@
 
     <div class="text">
         <h3>Sustainability and Ethical Production</h3>
-        <h4>How our products are created to be sustainable and ethical by design.</h4>
+        <h4>Indulge without guilt with our strict ethical production protocols.</h4>
     </div>
 </div>
 

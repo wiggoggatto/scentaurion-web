@@ -2,7 +2,7 @@
 </script>
    
 <div class="text">
-    <a href="/pages/quiz"><h3>Discover Your Signature Scent</h3></a>
+    <a href="/quiz"><h3>Discover Your Signature Scent</h3></a>
     <h4>
         Find out what scents are best for you and your loved ones.
     </h4>

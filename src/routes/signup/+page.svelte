@@ -15,8 +15,6 @@
             <input>
             <h2>Password</h2>
             <input>
-            <h2>Password</h2>
-            <input>
             <br>
             <button>Send verification email</button>
             

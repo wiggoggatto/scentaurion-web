@@ -1,7 +1,7 @@
 <script>
     import Header from './layout/Header.svelte';
     import Footer from './layout/Footer.svelte';
-    import Landing from './pages/landing/Landing.svelte';
+    import Landing from './landing/Landing.svelte';
 </script>
 
 <Header />
