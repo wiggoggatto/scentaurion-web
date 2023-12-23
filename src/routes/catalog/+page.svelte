@@ -8,11 +8,11 @@
     let products = [
       {
         id: 1,
-        title: 'Product 1',
+        title: 'Sophronia',
         image: 'path/to/image1.jpg',
-        cost: '$50.00',
-        label: 'New',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        cost: '99.00',
+        label: 'CLASSIC',
+        description: 'Composed of notes of bergamot, lemon, and orange, this fragrance is a citrusy delight.',
       },
       {
         id: 2,

@@ -1,54 +1,72 @@
 <script>
-    // Define the content for each column
-    let column1Content = "About Us";
-    let column2Content = "Contact Us";
-    let column3Content = "Social Media";
-
+    let Logo = new URL('./images/logo.png', import.meta.url).href
 </script>
 
+
+<div class="info">
+    <div class="upper">
+        <div class="logo">
+            <img src={Logo} alt="Scentaurion's Logo"/>
+        </div>
+
+        <div class="box">
+            <h3>Contact Us</h3>
+            <p>Towerjen Suites, Dacera Avenue</p>
+            <p>City Heights, General Santos City 9500</p>
+            <p>corporate.scentaurion@gmail.com</p>
+            <p>DITO +63 994 461 1776 </p>
+        </div>
+        <div class="box">
+            <h3>About Us</h3>
+            <p>Our Mission</p>
+            <p>Our Impact</p>
+            <p>The History</p>
+            <p>The Executives</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Scentaurion Inc. All rights reserved.</p>
+    </footer>
+</div>
+
+
 <style>
-    .footer {
+    .info {
         display: flex;
-        justify-content: space-between;
-        background-color: #8A2BE2;
+        flex-direction: column;
+        background-color:  #111111;
         color: white;
         padding: 20px;
     }
 
-    .column {
-        flex: 1;
-        margin-right: 20px;
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  #111111;
+    }
+
+    .upper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box {
+        display:flex;
+        flex-direction:column
+    }
+
+    .box p {
+        margin:2px;
+    }
+
+    .logo {
+        margin: 0 20px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
     }
 </style>
-
-<div>
-    <div class="footer">
-        <div class="column">
-            <h3>${column1Content}</h3>
-            <ul>
-                <li>About</li>
-                <li>Our Story</li>
-                <li>Team</li>
-            </ul>
-        </div>
-        <div class="column">
-            <h3>${column2Content}</h3>
-            <ul>
-                <li>Contact Info</li>
-                <li>Email</li>
-                <li>Phone</li>
-            </ul>
-        </div>
-        <div class="column">
-            <h3>${column3Content}</h3>
-            <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-            </ul>
-        </div>
-    </div>
-    <footer class="footer">
-        <p>&copy; 2022 Perfume World. All rights reserved.</p>
-    </footer>
-</div>

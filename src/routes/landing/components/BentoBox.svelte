@@ -2,10 +2,12 @@
 </script>
    
 <div class="text">
-    <a href="/quiz"><h3>Discover Your Signature Scent</h3></a>
-    <h4>
-        Find out what scents are best for you and your loved ones.
-    </h4>
+    <h2><a href="/customize">Discover Your Signature Scent</a></h2>
+    <div>
+        <p>
+            Find out what scents are best for you and your loved ones.
+        </p>
+    </div>
 </div>
 <div class="center-pls">
 <div class="main-compsce">
@@ -37,10 +39,33 @@
 </div>
 
 <style>
+    .text {
+        grid-column: 1 / span 3;
+        text-align: center;
+    }
+
+    .text a {
+        text-decoration: none;
+        color: #010101;
+    }
+
+    .text a:hover {
+        color: red;
+    }
+
+    .text h2 {
+        font-size: 2em;
+    }
+
+    .text p {
+        font-size: 1.2em;
+    }
+
     .center-pls {
         display:flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 3em;
     }
        
 
@@ -51,18 +76,25 @@
     }
 
     .topic {
-        max-width: 250px;
+        max-width: 200px;
         margin-top: 20px;
         padding-right: 10px;
-        background-color: white;
     }
 
-    .text {
-        grid-column: 1 / span 3;
-        padding-right: 10px;
-        background-color: white;
-        text-align: center;
+
+    .divide{
+        display: flex;
+        align-items: center;
     }
+
+    .divide::before, .divide::after {
+        flex: 1;
+        content: '';
+        padding:0.4px;
+        background-color: #111;
+        margin:5px;
+    }
+    
 
     .main-compsce h4, .main-compsce p {
         margin: 0;
