@@ -26,7 +26,7 @@
     </div>
     
     <footer>
-        <p>&copy; 2024 Scentaurion Inc. All rights reserved.</p>
+        <p>&copy; 2024 Ravin Chavez. All rights reserved.</p>
     </footer>
 </div>
 

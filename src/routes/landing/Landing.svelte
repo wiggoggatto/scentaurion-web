@@ -55,17 +55,12 @@
     </div>
 
     <div class="text">
-        <a href="/">
-            <h2>Changing Society One Scent at A Time</h2>
-        </a>
-            <p>For every purchase, we donate a portion of the proceeds to a charity.</p>
-    </div>
-
-    <div class="text">
         <h2>Sustainability and Ethical Production</h2>
-        <p>ADJECTIVE how our strict ethical production protocols.</p>
-    </div>    
-
+        <div class="divide">
+            <p>ADJECTIVE how our strict ethical production protocols.</p>
+    
+        </div>    
+    </div>
     
 </div>
 

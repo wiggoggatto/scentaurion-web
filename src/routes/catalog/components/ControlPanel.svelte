@@ -4,24 +4,40 @@
 	// Add necessary logic for controlling ratings and types
 </script>
 
-<aside class="control-panel">
+<div class="control-panel">
 	<!-- Add controls for ratings and types here -->
 	<div>
 		<label>Ratings:</label>
 		<select>
-			<option value="5">5 stars</option>
-			<!-- Add more rating options as needed -->
+			<option value="1">1⭐</option>
+			<option value="2">2⭐</option>
+			<option value="3">3⭐</option>
+			<option value="4">4⭐</option>
+			<option value="5">5⭐</option>
 		</select>
 	</div>
 	<div>
 		<label>Product Types:</label>
 		<select>
-			<option value="type1">Type 1</option>
-			<!-- Add more type options as needed -->
+			<option value="perfume">Perfume</option>
+			<option value="hair_care">Hair Care</option>
 		</select>
 	</div>
-</aside>
+	<div>
+		<label>Scent Family:</label>
+		<select>
+			<option value="floral">Floral</option>
+			<option value="citrus">Citrus</option>
+		</select>
+	</div>
+</div>
 
 <style>
-	/* Add styling for control panel */
+	select {
+		margin: 1em;
+	}
+	.control-panel {
+		display: flex;
+		flex-direction: row;
+	}
 </style>

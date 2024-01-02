@@ -9,44 +9,60 @@
       {
         id: 1,
         title: 'Sophronia',
-        image: 'path/to/image1.jpg',
-        cost: '99.00',
-        label: 'CLASSIC',
+        cost: '115.00',
+        label: 'HAIR CARE PRODUCT',
         description: 'Composed of notes of bergamot, lemon, and orange, this fragrance is a citrusy delight.',
       },
       {
         id: 2,
         title: 'Product 2',
-        image: 'path/to/image1.jpg',
+        cost: '$50.00',
+        label: 'OIL-BASED PERFUME',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      },
+      {
+        id: 3,
+        title: 'Product 2',
         cost: '$50.00',
         label: 'New',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       },
+      {
+        id: 4,
+        title: 'Product 2',
+        cost: '$50.00',
+        label: 'New',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      },      
       // Add more product entries as needed
     ];
 </script>
 
 <Header/>
-    <br>
-    <br>
-    <main>
+
+    <div class="center">
         <!-- add conditional render where it renders control panel wide when in desktop and control panel small when in mobile -->
         <div class="control-panel-wide">
+            <h2>Premium Fragrances at Scentaurion</h2>
             <ControlPanel />
         </div>
         <div class="product-list">
-            <h2>Featured Fragrances </h2>
             <ProductList {products} />
         </div>
-    </main>
-
-    <br>
-    <br>
+    </div>
 <Footer/>
 
 <style>
     main {
         display: flex;
+        flex-direction: column;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .product-list {
@@ -54,17 +70,16 @@
 		flex: 1; 
 		display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
 		/* flex-wrap: wrap; */
 	}
 
     .control-panel-wide {
-        /* background-color: #987; */
-        position: sticky;
-		top: 0;
-		align-self: flex-start; 
-		margin-right: auto; 
-		padding: 16px;
-		/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 </style>
 
