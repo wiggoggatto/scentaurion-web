@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="product-card design sunflower">
-            <h2>Aethlyn</h2>
+            <h2>Random name</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="product-card design lavander">
