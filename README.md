@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 COPYRIGHT NOTICE: Ravin Chavez and Scentaurion Partners own the copyright and intellectual property of this work product. Any derivative works, publication, modification are not allowed, however you're welcome to download/view our code. Copyright and intellectual property codes are contextualized within the jurisdiction of the Courts of the Philippines.
 
 # Downloading This Project
@@ -24,6 +25,9 @@ There will be a link of http://localhost:5173/, and run that into your device. A
 - Ravin🥳
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+=======
+# scentaurion-web
+>>>>>>> 33d163275579406e356a0bb7dbf914a207b6e746
 =======
 # scentaurion-web
 >>>>>>> 33d163275579406e356a0bb7dbf914a207b6e746
