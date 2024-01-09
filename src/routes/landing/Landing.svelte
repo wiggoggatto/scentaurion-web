@@ -26,17 +26,17 @@
 
     <div class="product-list">
         <div class="product-card design rose">
-            <h2>Sophrania</h2>
+            <h2>Clementine's Veil</h2>
             <div class="bg-blur">
-                <p>Hair care oil with fragrance inspired by flowers found in Malacanang Palace.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
         <div class="product-card design sunflower">
-            <h2>Random name</h2>
+            <h2>Evelyn's Elixir </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="product-card design lavander">
-            <h2>Perfume 3</h2>
+            <h2>Harriet's Harmony </h2>
             <p>Lorem ipsum dolor sit amet, consecstetur adipiscing elit.</p>
         </div>
     </div>

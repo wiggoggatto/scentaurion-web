@@ -5,7 +5,9 @@
     <div>
         <h1>Redefine What's Possible</h1>
         <p>Choose the fragrance that suit you best.</p>
-        <p>Read more →</p>
+        <a href="/customize/tailored">
+            <p>Read more →</p>
+        </a>
     </div>
 
     <div>
